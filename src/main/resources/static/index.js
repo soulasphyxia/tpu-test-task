@@ -4,12 +4,15 @@ const error_field = document.getElementById("error-field")
 const general_info = document.getElementById("general-info");
 const students_list = document.getElementById("students-list");
 
+//const api = "http://localhost:8081/"
+const api = "tpu-test-task-production.up.railway.app"
+
 search_btn.addEventListener("click",() => {
     const value = input_field.value;
     if(value !== ""){
-        fetchData(`http://localhost:8081/group?name=${value}`).then(data => renderData(data))
+        fetchData(api+`group?name=${value}`).then(data => renderData(data))
     }else{
-        fetchData(`http://localhost:8081/group?`).then(data => renderTable(data))
+        fetchData(api+`group?`).then(data => renderTable(data))
     }
 })
 
