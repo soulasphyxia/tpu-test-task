@@ -2,11 +2,21 @@
     color: red;
 }
 
+body{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
 .main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    background-color: white;
+    width: 900px;
+    min-height: 750px;
+    height: 100%;
+    margin-bottom: 100px;
 }
 
 .search-bar{
