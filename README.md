@@ -29,15 +29,19 @@
 
 ## Скриншоты
 Начальный экран приложения:
-![image](https://github.com/soulasphyxia/tpu-test-task/assets/98162330/b1f620ce-682e-4dd2-ae38-f76950366d36)
+![image](https://github.com/soulasphyxia/tpu-test-task/assets/98162330/5efdcb4b-a77a-4a63-816e-78b1218341db)
+
 
 Поиск группы '8В14':
-![image](https://github.com/soulasphyxia/tpu-test-task/assets/98162330/a8b039f2-7eb1-4d9d-adb3-c715f39579a4)
+![image](https://github.com/soulasphyxia/tpu-test-task/assets/98162330/704326b1-c788-43df-8fd7-7340f145d45e)
+
 
 Попытка поиска несуществующей группы:
-![image](https://github.com/soulasphyxia/tpu-test-task/assets/98162330/320a0b64-610d-4ff2-b8a9-575579c0ec8b)
+![image](https://github.com/soulasphyxia/tpu-test-task/assets/98162330/da766964-e533-47dc-b787-da039a1bc129)
+
 
 
 Вывод всех студентов с 1 по 5 курс обучения:
-![image](https://github.com/soulasphyxia/tpu-test-task/assets/98162330/514176c2-b6c2-453d-bfa1-0cb9b4d1056b)
+![image](https://github.com/soulasphyxia/tpu-test-task/assets/98162330/3a3f06e4-2ef8-459e-967a-53f2ae9db2ba)
+
 
