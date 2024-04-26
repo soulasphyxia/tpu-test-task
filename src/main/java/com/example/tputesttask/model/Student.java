@@ -47,4 +47,8 @@ public class Student {
     @Transient
     private Integer course;
 
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    @Transient
+    private String group;
+
 }

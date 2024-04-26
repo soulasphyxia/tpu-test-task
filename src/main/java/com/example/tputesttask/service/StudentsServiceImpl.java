@@ -21,6 +21,7 @@ public class StudentsServiceImpl implements StudentsService{
         for(Group group : groups){
             for(Student student: group.getStudentList()){
                 student.setCourse(group.getCourse());
+                student.setGroup(group.getName());
                 students.add(student);
             }
         }

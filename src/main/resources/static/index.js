@@ -4,8 +4,8 @@ const error_field = document.getElementById("error-field")
 const general_info = document.getElementById("general-info");
 const students_list = document.getElementById("students-list");
 
-//const api = "http://localhost:8081/"
-const api = "https://tpu-test-task-production.up.railway.app/"
+const api = "http://localhost:8081/"
+//const api = "https://tpu-test-task-production.up.railway.app/"
 
 search_btn.addEventListener("click",() => {
     const value = input_field.value;
@@ -73,6 +73,7 @@ function renderTable(students){
             <th id="sex">Пол</th>
             <th id="status">Статус</th>
             <th id="finance">Тип финансирования</th>
+            <th id="group">Группа</th>
             <th id="course">Курс</th>
     </tr>`;
     for (let student of students) {
@@ -89,6 +90,7 @@ function generateTableRow(i,student) {
         <td>${student["sex"]}</td>
         <td>${student["status"]}</td>
         <td>${student["financeType"]}</td>
+        <td>${student["group"]}</td>
         <td>${student["course"]}</td>
     `;
     return tr;
